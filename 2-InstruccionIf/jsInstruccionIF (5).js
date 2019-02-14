@@ -4,15 +4,11 @@ function Mostrar()
 var edad;
 edad = parseInt(document.getElementById("edad").value);
 
-//Condicion
-if( edad >= 13) {
-
-    if(edad <= 17){    }
-}
-else{
+//Dos condiciones
+if( edad  <13 || edad >17) {
     alert("No es adolescente");
-}
 
+}
 
 }
 //FIN DE LA FUNCIÓN
